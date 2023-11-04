@@ -1,0 +1,171 @@
+﻿body {
+    background-image: url('../Images/background_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form fieldset {
+    /*float: left;*/
+    width: 25%;
+    position: absolute;
+    top: 150px;
+    left: 38%;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+    background: #F1F8E0;
+}
+
+    input:focus {
+        border: 2px solid #000;
+        background: #F5F6CE;
+    }
+footer {
+    position: absolute;
+    top: 750px;
+    left: 42%;
+}
+/*
+form fieldset:hover {
+    background-color: #F4F4F4;
+}
+        */
+/*---Título---*/
+h1
+{
+    font-size:50px;
+    font-family:MarkerFeltThin-Plain;
+    text-align:center;
+}
+h2 {
+    font-size: 30px;
+    font-family: MarkerFeltThin-Plain;
+    text-align: center;
+}
+#seccionDatos {
+    width: 25%;
+    position: absolute;
+    top: 150px;
+    left: 38%;
+}
+p
+{
+    text-align:center;
+}
+#seccionDatos {
+    background-color:white;
+}
+
+.nekocuadro {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-left: 5%;
+}
+    .nekoimage {
+    height: 190px;
+    margin-top: 180px;
+    position: relative;
+}
+
+.nekoimage:hover {
+    height: 250px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.indextextbox {
+    width: 90%;
+    position: absolute;
+}
+h1 {
+    -webkit-text-fill-color: black;
+    
+}
+p {
+    font-size:25px;
+    -webkit-text-fill-color: black;
+    
+}
+
+.imageninicio {
+    position: absolute;
+    height: 220px;
+    width: 90%;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 25px;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
+}
+.textoinicio {
+    position: relative;
+}
+.createbox {
+    background-color: white;
+    height: 550px;
+    width: 50%;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 10px;
+}
+.delaitbox {
+    background-color: white;
+    height: 450px;
+    width: 50%;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 10px;
+}
+.deletebox {
+    background-color: white;
+    height: 350px;
+    width: 40%;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.indexbox {
+    background-color: white;
+    height: 50px;
+    width: 40%;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 25px;
+}
+.botondiv {
+    background-color: #ffff00;
+    height: 60px;
+    width: 114px;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.botondiv2 {
+    background-color: #ffff00;
+    height: 35px;
+    width: 220px;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 25px;
+}
+.botondiv3 {
+    background-color: #ffff00;
+    height: 35px;
+    width: 245px;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 25px;
+}
+.tablaContenidos {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 10px;
+}

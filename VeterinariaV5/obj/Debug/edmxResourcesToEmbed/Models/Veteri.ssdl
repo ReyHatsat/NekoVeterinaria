@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VeteriDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Duenio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido1" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Mascotas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Especie" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Id_duenio" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Mascotas__Id_due__36B12243">
+    <End Role="Duenio" Type="Self.Duenio" Multiplicity="1" />
+    <End Role="Mascotas" Type="Self.Mascotas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Duenio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mascotas">
+        <PropertyRef Name="Id_duenio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VeteriDBModelStoreContainer">
+    <EntitySet Name="Duenio" EntityType="Self.Duenio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mascotas" EntityType="Self.Mascotas" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Mascotas__Id_due__36B12243" Association="Self.FK__Mascotas__Id_due__36B12243">
+      <End Role="Duenio" EntitySet="Duenio" />
+      <End Role="Mascotas" EntitySet="Mascotas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

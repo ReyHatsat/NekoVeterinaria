@@ -1,0 +1,60 @@
+﻿@model VeterinariaV5.Models.Mascotas
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h1 class="indexbox">Detalles</h1>
+
+<div class="delaitbox">
+    <div>
+        <h1>Mascota</h1>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nombre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Especie)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Especie)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Color)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Color)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Fecha)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Duenio.Nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Duenio.Nombre)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Regresar a la lista", "Index")
+    </p>
+</div>

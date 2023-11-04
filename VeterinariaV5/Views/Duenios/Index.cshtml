@@ -1,0 +1,57 @@
+﻿@model IEnumerable<VeterinariaV5.Models.Duenio>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h1 class="indexbox">Lista de dueños</h1>
+
+<div class="botondiv2">
+    <p>
+        @Html.ActionLink("Crear Dueño", "Create")
+    </p>
+</div>
+<br />
+<div class="tablaContenidos">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VeteriDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Duenio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido1" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido2" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Correo" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Mascotas">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Especie" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Color" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fecha" Type="date" Nullable="false" />
+          <Property Name="Id_duenio" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Mascotas__Id_due__36B12243">
+          <End Role="Duenio" Type="Self.Duenio" Multiplicity="1" />
+          <End Role="Mascotas" Type="Self.Mascotas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Duenio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Mascotas">
+              <PropertyRef Name="Id_duenio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VeteriDBModelStoreContainer">
+          <EntitySet Name="Duenio" EntityType="Self.Duenio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mascotas" EntityType="Self.Mascotas" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Mascotas__Id_due__36B12243" Association="Self.FK__Mascotas__Id_due__36B12243">
+            <End Role="Duenio" EntitySet="Duenio" />
+            <End Role="Mascotas" EntitySet="Mascotas" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VeteriDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Duenio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellido1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Apellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Mascotas" Relationship="Self.FK__Mascotas__Id_due__36B12243" FromRole="Duenio" ToRole="Mascotas" />
+        </EntityType>
+        <EntityType Name="Mascotas">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Especie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Id_duenio" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Duenio" Relationship="Self.FK__Mascotas__Id_due__36B12243" FromRole="Mascotas" ToRole="Duenio" />
+        </EntityType>
+        <Association Name="FK__Mascotas__Id_due__36B12243">
+          <End Role="Duenio" Type="Self.Duenio" Multiplicity="1" />
+          <End Role="Mascotas" Type="Self.Mascotas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Duenio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Mascotas">
+              <PropertyRef Name="Id_duenio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VeteriDBEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Duenio" EntityType="Self.Duenio" />
+          <EntitySet Name="Mascotas" EntityType="Self.Mascotas" />
+          <AssociationSet Name="FK__Mascotas__Id_due__36B12243" Association="Self.FK__Mascotas__Id_due__36B12243">
+            <End Role="Duenio" EntitySet="Duenio" />
+            <End Role="Mascotas" EntitySet="Mascotas" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VeteriDBModelStoreContainer" CdmEntityContainer="VeteriDBEntities1">
+          <EntitySetMapping Name="Duenio">
+            <EntityTypeMapping TypeName="VeteriDBModel.Duenio">
+              <MappingFragment StoreEntitySet="Duenio">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+                <ScalarProperty Name="Apellido2" ColumnName="Apellido2" />
+                <ScalarProperty Name="Correo" ColumnName="Correo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mascotas">
+            <EntityTypeMapping TypeName="VeteriDBModel.Mascotas">
+              <MappingFragment StoreEntitySet="Mascotas">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Especie" ColumnName="Especie" />
+                <ScalarProperty Name="Color" ColumnName="Color" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Id_duenio" ColumnName="Id_duenio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

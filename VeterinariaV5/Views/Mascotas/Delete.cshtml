@@ -1,0 +1,66 @@
+﻿@model VeterinariaV5.Models.Mascotas
+
+@{
+    ViewBag.Title = "Borrar";
+}
+
+<h1 class="indexbox">Borrar</h1>
+
+<div class="deletebox">
+    <h3>¿Realmente deseas borrar esta mascota?</h3>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Nombre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Especie)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Especie)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Color)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Color)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Fecha)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Duenio.Nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Duenio.Nombre)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <pre />             <input type="submit" value="Borrar" class="btn btn-default" />
+                        @Html.ActionLink("Regresar a la lista", "Index")
+            </div>
+        }
+    </div>
+</div>

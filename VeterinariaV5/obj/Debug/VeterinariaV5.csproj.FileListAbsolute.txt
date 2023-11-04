@@ -1,0 +1,158 @@
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\ApplicationInsights.config
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.exe
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.exe.config
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.rsp
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\csi.exe
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\csi.rsp
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.AppContext.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Collections.Immutable.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.IO.FileSystem.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.exe
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.exe.config
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.rsp
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\VBCSCompiler.exe
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\roslyn\VBCSCompiler.exe.config
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.dll.config
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.pdb
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Antlr3.Runtime.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.SqlServer.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Web.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.WindowsServer.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.ApplicationInsights.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.Web.Infrastructure.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Newtonsoft.Json.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Helpers.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Mvc.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Optimization.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Razor.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Deployment.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Razor.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\WebGrease.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.SqlServer.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Helpers.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Mvc.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Optimization.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.Razor.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Deployment.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Razor.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Antlr3.Runtime.pdb
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Newtonsoft.Json.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.ApplicationInsights.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.WindowsServer.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Web.xml
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Helpers.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Mvc.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Optimization.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Razor.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.csprojResolveAssemblyReference.cache
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.dll
+c:\users\rey pc\documents\visual studio 2017\Projects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.pdb
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\ApplicationInsights.config
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.exe
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.exe.config
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\csc.rsp
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\csi.exe
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\csi.rsp
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.AppContext.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Collections.Immutable.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.IO.FileSystem.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\System.Reflection.Metadata.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.exe
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.exe.config
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\vbc.rsp
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\VBCSCompiler.exe
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\roslyn\VBCSCompiler.exe.config
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.dll.config
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\VeterinariaV5.pdb
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Antlr3.Runtime.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.SqlServer.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.DependencyCollector.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Web.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.WindowsServer.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.ApplicationInsights.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.Web.Infrastructure.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Newtonsoft.Json.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Helpers.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Mvc.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Optimization.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Razor.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Deployment.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Razor.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\WebGrease.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\EntityFramework.SqlServer.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Helpers.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Mvc.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Optimization.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.Razor.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Deployment.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\System.Web.WebPages.Razor.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Antlr3.Runtime.pdb
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Newtonsoft.Json.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.ApplicationInsights.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.DependencyCollector.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.WindowsServer.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\Microsoft.AI.Web.xml
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Helpers.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Mvc.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Optimization.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.Razor.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.csproj.CoreCompileInputs.cache
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.csproj.CopyComplete
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.dll
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.pdb
+E:\Mis documentos\Hojas\VSProyects\VeterinariaV5\VeterinariaV5\obj\Debug\VeterinariaV5.csproj.AssemblyReference.cache

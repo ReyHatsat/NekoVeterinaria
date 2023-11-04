@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VeteriDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Duenio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Mascotas" Relationship="Self.FK__Mascotas__Id_due__36B12243" FromRole="Duenio" ToRole="Mascotas" />
+  </EntityType>
+  <EntityType Name="Mascotas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Especie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Color" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Id_duenio" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Duenio" Relationship="Self.FK__Mascotas__Id_due__36B12243" FromRole="Mascotas" ToRole="Duenio" />
+  </EntityType>
+  <Association Name="FK__Mascotas__Id_due__36B12243">
+    <End Role="Duenio" Type="Self.Duenio" Multiplicity="1" />
+    <End Role="Mascotas" Type="Self.Mascotas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Duenio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mascotas">
+        <PropertyRef Name="Id_duenio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VeteriDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Duenio" EntityType="Self.Duenio" />
+    <EntitySet Name="Mascotas" EntityType="Self.Mascotas" />
+    <AssociationSet Name="FK__Mascotas__Id_due__36B12243" Association="Self.FK__Mascotas__Id_due__36B12243">
+      <End Role="Duenio" EntitySet="Duenio" />
+      <End Role="Mascotas" EntitySet="Mascotas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
